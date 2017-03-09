@@ -1,7 +1,7 @@
-name = 'WeDisrupt'
+name = 'Resist This'
 description = Uses the Bootstrap Framework Sass source files.
 core = 7.x
-base theme = bootstrap
+base theme = wedisrupt
 
 
 ;;;;;;;;;;;;;;;;;;;;;

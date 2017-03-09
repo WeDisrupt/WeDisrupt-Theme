@@ -20,13 +20,13 @@ $gray-dark:          lighten($gray-base, 20%) !default; //
 $gray:          lighten($gray-base, 33.5%) !default; //
 $gray-light:          lighten($gray-base, 46.7%) !default; //
 $gray-lighter:          lighten($gray-base, 93.5%) !default; //
-$brand-primary:          #F27A6D !default; //
-$brand-success:          #284c6b !default; //
-$brand-info:          #5c7f7f !default; //
-$brand-warning:          #f3bd66 !default; //
-$brand-danger:          #F27A6D !default; //
-$body-bg:          #fff !default; //
-$text-color:          #0D0D16 !default; //
+$brand-primary:          #672437 !default; //
+$brand-success:          #8ad6d2 !default; //
+$brand-info:          #c9e2f1 !default; //
+$brand-warning:          #1e222f !default; //
+$brand-danger:          #672437 !default; //
+$body-bg:          #eef7fd !default; //
+$text-color:          #1e222f !default; //
 $link-color:          $brand-primary !default; //
 $link-hover-color:          darken($link-color, 15%) !default; //
 $link-hover-decoration:          underline !default; //
@@ -48,7 +48,7 @@ $line-height-computed:          floor(($font-size-base * $line-height-base)) !de
 $headings-font-family:          inherit !default; //
 $headings-font-weight:          500 !default; //
 $headings-line-height:          1.1 !default; //
-$headings-color:          #f27a6d !default; //
+$headings-color:          #672437 !default; //
 $icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/bootstrap/") !default;
 
 //** File name for all font files.
@@ -68,7 +68,7 @@ $line-height-small:          1.5 !default; //
 $border-radius-base:          0px !default; //
 $border-radius-large:          60px !default; //
 $border-radius-small:          0px !default; //
-$component-active-color:          #fff !default; //
+$component-active-color:          #eef7fd !default; //
 $component-active-bg:          $brand-primary !default; //
 $caret-width-base:          4px !default; //
 $caret-width-large:          5px !default; //
@@ -81,28 +81,28 @@ $table-bg-active:          $table-bg-hover !default; //
 $table-border-color:          #ddd !default; //
 $btn-font-weight:          normal !default; //
 $btn-default-color:          $brand-primary !default; //
-$btn-default-bg:          #fff !default; //
+$btn-default-bg:          #eef7fd !default; //
 $btn-default-border:          #ccc !default; //
-$btn-primary-color:          #fff !default; //
+$btn-primary-color:          #eef7fd !default; //
 $btn-primary-bg:          $brand-primary !default; //
 $btn-primary-border:          darken($btn-primary-bg, 5%) !default; //
-$btn-success-color:          #fff !default; //
+$btn-success-color:          #eef7fd !default; //
 $btn-success-bg:          $brand-success !default; //
 $btn-success-border:          darken($btn-success-bg, 5%) !default; //
-$btn-info-color:          #fff !default; //
+$btn-info-color:          #eef7fd !default; //
 $btn-info-bg:          $brand-info !default; //
 $btn-info-border:          darken($btn-info-bg, 5%) !default; //
-$btn-warning-color:          #fff !default; //
+$btn-warning-color:          #eef7fd !default; //
 $btn-warning-bg:          $brand-warning !default; //
 $btn-warning-border:          darken($btn-warning-bg, 5%) !default; //
-$btn-danger-color:          #fff !default; //
+$btn-danger-color:          #eef7fd !default; //
 $btn-danger-bg:          $brand-danger !default; //
 $btn-danger-border:          darken($btn-danger-bg, 5%) !default; //
 $btn-link-disabled-color:          $gray-light !default; //
 $btn-border-radius-base:          $border-radius-base !default; //
 $btn-border-radius-large:          $border-radius-large !default; //
 $btn-border-radius-small:          $border-radius-small !default; //
-$input-bg:          #fff !default; //
+$input-bg:          #eef7fd !default; //
 $input-bg-disabled:          $gray-lighter !default; //
 $input-color:          $gray !default; //
 $input-border:          #ccc !default; //
@@ -120,7 +120,7 @@ $legend-border-color:          #e5e5e5 !default; //
 $input-group-addon-bg:          $gray-lighter !default; //
 $input-group-addon-border-color:          $input-border !default; //
 $cursor-disabled:          not-allowed !default; //
-$dropdown-bg:          #fff !default; //
+$dropdown-bg:          #eef7fd !default; //
 $dropdown-border:          rgba(0,0,0,.15) !default; //
 $dropdown-fallback-border:          #ccc !default; //
 $dropdown-divider-bg:          #e5e5e5 !default; //
@@ -131,7 +131,7 @@ $dropdown-link-active-color:          $component-active-color !default; //
 $dropdown-link-active-bg:          $component-active-bg !default; //
 $dropdown-link-disabled-color:          $gray-light !default; //
 $dropdown-header-color:          $gray-light !default; //
-$dropdown-caret-color:          #000 !default; //
+$dropdown-caret-color:          #1e222f !default; //
 $screen-xs:          480px !default; //
 $screen-xs-min:          $screen-xs !default; //
 $screen-phone:          $screen-xs-min !default; //
@@ -183,17 +183,17 @@ $navbar-inverse-color:          lighten($gray-light, 15%) !default; //
 $navbar-inverse-bg:          #222 !default; //
 $navbar-inverse-border:          darken($navbar-inverse-bg, 10%) !default; //
 $navbar-inverse-link-color:          lighten($gray-light, 15%) !default; //
-$navbar-inverse-link-hover-color:          #fff !default; //
+$navbar-inverse-link-hover-color:          #eef7fd !default; //
 $navbar-inverse-link-hover-bg:          transparent !default; //
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default; //
 $navbar-inverse-link-active-bg:          darken($navbar-inverse-bg, 10%) !default; //
 $navbar-inverse-link-disabled-color:          #444 !default; //
 $navbar-inverse-link-disabled-bg:          transparent !default; //
 $navbar-inverse-brand-color:          $navbar-inverse-link-color !default; //
-$navbar-inverse-brand-hover-color:          #fff !default; //
+$navbar-inverse-brand-hover-color:          #eef7fd !default; //
 $navbar-inverse-brand-hover-bg:          transparent !default; //
 $navbar-inverse-toggle-hover-bg:          #333 !default; //
-$navbar-inverse-toggle-icon-bar-bg:          #fff !default; //
+$navbar-inverse-toggle-icon-bar-bg:          #eef7fd !default; //
 $navbar-inverse-toggle-border-color:          #333 !default; //
 $nav-link-padding:          10px 15px !default; //
 $nav-link-hover-bg:          $gray-lighter !default; //
@@ -210,16 +210,16 @@ $nav-pills-border-radius:          $border-radius-base !default; //
 $nav-pills-active-link-hover-bg:          $component-active-bg !default; //
 $nav-pills-active-link-hover-color:          $component-active-color !default; //
 $pagination-color:          $link-color !default; //
-$pagination-bg:          #fff !default; //
+$pagination-bg:          #eef7fd !default; //
 $pagination-border:          #ddd !default; //
 $pagination-hover-color:          $link-hover-color !default; //
 $pagination-hover-bg:          $gray-lighter !default; //
 $pagination-hover-border:          #ddd !default; //
-$pagination-active-color:          #fff !default; //
+$pagination-active-color:          #eef7fd !default; //
 $pagination-active-bg:          $brand-primary !default; //
 $pagination-active-border:          $brand-primary !default; //
 $pagination-disabled-color:          $gray-light !default; //
-$pagination-disabled-bg:          #fff !default; //
+$pagination-disabled-bg:          #eef7fd !default; //
 $pagination-disabled-border:          #ddd !default; //
 $pager-bg:          $pagination-bg !default; //
 $pager-border:          $pagination-border !default; //
@@ -247,12 +247,12 @@ $state-danger-text:          #a94442 !default; //
 $state-danger-bg:          #f2dede !default; //
 $state-danger-border:          darken(adjust-hue($state-danger-bg, -10), 5%) !default; //
 $tooltip-max-width:          200px !default; //
-$tooltip-color:          #fff !default; //
-$tooltip-bg:          #000 !default; //
+$tooltip-color:          #eef7fd !default; //
+$tooltip-bg:          #1e222f !default; //
 $tooltip-opacity:          .9 !default; //
 $tooltip-arrow-width:          5px !default; //
 $tooltip-arrow-color:          $tooltip-bg !default; //
-$popover-bg:          #fff !default; //
+$popover-bg:          #eef7fd !default; //
 $popover-max-width:          276px !default; //
 $popover-border-color:          rgba(0,0,0,.2) !default; //
 $popover-fallback-border-color:          #ccc !default; //
@@ -268,15 +268,15 @@ $label-success-bg:          $brand-success !default; //
 $label-info-bg:          $brand-info !default; //
 $label-warning-bg:          $brand-warning !default; //
 $label-danger-bg:          $brand-danger !default; //
-$label-color:          #fff !default; //
-$label-link-hover-color:          #fff !default; //
+$label-color:          #eef7fd !default; //
+$label-link-hover-color:          #eef7fd !default; //
 $modal-inner-padding:          15px !default; //
 $modal-title-padding:          15px !default; //
 $modal-title-line-height:          $line-height-base !default; //
-$modal-content-bg:          #fff !default; //
+$modal-content-bg:          #eef7fd !default; //
 $modal-content-border-color:          rgba(0,0,0,.2) !default; //
 $modal-content-fallback-border-color:          #999 !default; //
-$modal-backdrop-bg:          #000 !default; //
+$modal-backdrop-bg:          #1e222f !default; //
 $modal-backdrop-opacity:          .5 !default; //
 $modal-header-border-color:          #e5e5e5 !default; //
 $modal-footer-border-color:          $modal-header-border-color !default; //
@@ -299,14 +299,14 @@ $alert-danger-bg:          $state-danger-bg !default; //
 $alert-danger-text:          $state-danger-text !default; //
 $alert-danger-border:          $state-danger-border !default; //
 $progress-bg:          #f5f5f5 !default; //
-$progress-bar-color:          #fff !default; //
+$progress-bar-color:          #eef7fd !default; //
 $progress-border-radius:          $border-radius-base !default; //
 $progress-bar-bg:          $brand-primary !default; //
 $progress-bar-success-bg:          $brand-success !default; //
 $progress-bar-warning-bg:          $brand-warning !default; //
 $progress-bar-danger-bg:          $brand-danger !default; //
 $progress-bar-info-bg:          $brand-info !default; //
-$list-group-bg:          #fff !default; //
+$list-group-bg:          #eef7fd !default; //
 $list-group-border:          #ddd !default; //
 $list-group-border-radius:          $border-radius-base !default; //
 $list-group-hover-bg:          #f5f5f5 !default; //
@@ -320,7 +320,7 @@ $list-group-disabled-text-color:          $list-group-disabled-color !default; /
 $list-group-link-color:          #555 !default; //
 $list-group-link-hover-color:          $list-group-link-color !default; //
 $list-group-link-heading-color:          #333 !default; //
-$panel-bg:          #fff !default; //
+$panel-bg:          #eef7fd !default; //
 $panel-body-padding:          15px !default; //
 $panel-heading-padding:          10px 15px !default; //
 $panel-footer-padding:          $panel-heading-padding !default; //
@@ -330,7 +330,7 @@ $panel-footer-bg:          #f5f5f5 !default; //
 $panel-default-text:          $gray-dark !default; //
 $panel-default-border:          #ddd !default; //
 $panel-default-heading-bg:          #f5f5f5 !default; //
-$panel-primary-text:          #fff !default; //
+$panel-primary-text:          #eef7fd !default; //
 $panel-primary-border:          $brand-primary !default; //
 $panel-primary-heading-bg:          $brand-primary !default; //
 $panel-success-text:          $state-success-text !default; //
@@ -353,11 +353,11 @@ $thumbnail-caption-color:          $text-color !default; //
 $thumbnail-caption-padding:          9px !default; //
 $well-bg:          #f5f5f5 !default; //
 $well-border:          darken($well-bg, 7%) !default; //
-$badge-color:          #fff !default; //
-$badge-link-hover-color:          #fff !default; //
+$badge-color:          #eef7fd !default; //
+$badge-link-hover-color:          #eef7fd !default; //
 $badge-bg:          $gray-light !default; //
 $badge-active-color:          $link-color !default; //
-$badge-active-bg:          #fff !default; //
+$badge-active-bg:          #eef7fd !default; //
 $badge-font-weight:          bold !default; //
 $badge-line-height:          1 !default; //
 $badge-border-radius:          10px !default; //
@@ -368,19 +368,19 @@ $breadcrumb-color:          #ccc !default; //
 $breadcrumb-active-color:          $gray-light !default; //
 $breadcrumb-separator:          \"/\" !default; //
 $carousel-text-shadow:          0 1px 2px rgba(0,0,0,.6) !default; //
-$carousel-control-color:          #fff !default; //
+$carousel-control-color:          #eef7fd !default; //
 $carousel-control-width:          15% !default; //
 $carousel-control-opacity:          .5 !default; //
 $carousel-control-font-size:          20px !default; //
-$carousel-indicator-active-bg:          #fff !default; //
-$carousel-indicator-border-color:          #fff !default; //
-$carousel-caption-color:          #fff !default; //
+$carousel-indicator-active-bg:          #eef7fd !default; //
+$carousel-indicator-border-color:          #eef7fd !default; //
+$carousel-caption-color:          #eef7fd !default; //
 $close-font-weight:          bold !default; //
-$close-color:          #000 !default; //
-$close-text-shadow:          0 1px 0 #fff !default; //
+$close-color:          #1e222f !default; //
+$close-text-shadow:          0 1px 0 #eef7fd !default; //
 $code-color:          #c7254e !default; //
 $code-bg:          #f9f2f4 !default; //
-$kbd-color:          #fff !default; //
+$kbd-color:          #eef7fd !default; //
 $kbd-bg:          #333 !default; //
 $pre-bg:          #f5f5f5 !default; //
 $pre-color:          $gray-dark !default; //

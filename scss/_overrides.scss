@@ -12,6 +12,42 @@ $grid-breakpoint:     "screen and (min-width: #{$grid-float-breakpoint})";
 }
 
 html {
+
+    .lead {
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    h5 {
+        font-weight: 600;
+          letter-spacing: 1px;
+    }
+
+    h4 {
+      font-weight: 700;
+      color: black;
+      text-transform: uppercase;
+    }
+
+    h3 {
+        text-transform: uppercase;
+    }
+
+    h2 {
+      font-weight: 600;
+      text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    h1 {
+          font-weight: 900;
+          word-wrap: break-word;
+          letter-spacing: 2px;
+          -webkit-hyphens: auto;
+          -moz-hyphens: auto;
+          -ms-hyphens: auto;
+          hyphens: auto;
+    }
+    
   &.overlay-open .navbar-fixed-top {
     z-index: 400;
   }
@@ -48,6 +84,13 @@ body {
   // Fix horizontal scrolling on iOS devices.
   // http://drupal.org/node/1870076
   position: relative;
+    
+  -webkit-font-smoothing: antialiased;
+ p {
+      letter-spacing: 1px;
+      font-size: 16px;
+      font-weight: 300;
+    }
   &.admin-expanded.admin-vertical.admin-nw .navbar,
   &.admin-expanded.admin-vertical.admin-sw .navbar {
     margin-left: 260px;
@@ -869,4 +912,625 @@ a {
     margin-left: .25em;
     margin-right: -.25em;
   }
+}
+/* temp css-please remove styles from this document as soon as they are included in overides.scss and compiled */
+
+.node-sections {
+  .content .field-name-field-image.field-type-image {
+    display: none;
+  }
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.region-header .node-sections {
+  padding-top: 10vh;
+  margin-top: -70px;
+  min-height: 100vh;
+}
+
+.front .navbar-fixed-top {
+  background: transparent;
+  position: absolute;
+  border: none;
+}
+
+a.name.navbar-brand {
+  display: block;
+  padding: 5px;
+}
+
+.navbar-brand > img {
+  max-height: 100%;
+}
+
+#navbar h1.hidden-sm {
+  margin: 0 20px;
+  font-size: 44px;
+  font-weight: 100 !important;
+  color: rgba(255, 255, 255, 1);
+  display: inline-block;
+}
+
+.front .navbar-inverse .navbar-nav > {
+  .active > a {
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+    &:focus {
+      color: #fff;
+      background-color: transparent;
+      outline: none;
+    }
+    &:hover {
+      color: #f27a6d;
+    }
+  }
+  li:hover > a:after {
+    margin: 3px 0 0 0;
+    max-width: 60%;
+    display: block;
+    content: '';
+    border-bottom: 3px solid;
+    /* background-color:rgba(0,0,0,0.3); */
+  }
+}
+
+/* temp css-please remove styles from this document as soon as they are included in overides.scss and compiled */
+.node-sections {
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+    .content .field-name-field-image.field-type-image {
+      display: none;
+    }
+}
+
+.region-header .node-sections {
+  padding-top: 10vh;
+  margin-top: -70px;
+  min-height: 100vh;
+}
+
+.front .navbar-fixed-top {
+  background: transparent;
+  position: absolute;
+  border: none;
+}
+
+a.name.navbar-brand {
+  display: block;
+  padding: 5px;
+}
+
+.navbar-brand > img {
+  max-height: 100%;
+}
+
+#navbar h1.hidden-sm {
+  margin: 0 20px;
+  font-size: 44px;
+  font-weight: 100 !important;
+  color: white;
+  display: inline-block;
+}
+
+.front .navbar-inverse .navbar-nav > .active > a {
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+}
+
+.front .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+}
+
+.front .navbar-inverse .navbar-nav > .active > a:hover {
+  color: #f27a6d;
+}
+
+.front .navbar-inverse .navbar-nav > li:hover > a:after {
+  margin: 3px 0 0 0;
+  max-width: 60%;
+  display: block;
+  content: '';
+  border-bottom: 3px solid;
+  /* background-color:rgba(0,0,0,0.3); */
+}
+
+@media (min-width: 1400px) {
+  .nav > li > a {
+    font-size: 18px;
+  }
+}
+
+.nav > li > a {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+a.link-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  background-size: cover;
+  min-height: 250px;
+}
+
+a.link-image:hover {
+  background-position: left bottom;
+}
+
+.event-meta.bg-primary {
+  color: white;
+  padding: 10px;
+}
+
+.bg-primary a, .bg-primary a:hover {
+  color: white;
+}
+
+
+//colors
+$black_60: rgba(0,0,0,0.6);
+$color_cod_gray_30_approx: rgba(9,9,9, 0.3);
+$facebook: #335795;
+$twitter: #39c7ff;
+
+$black_10: rgba(0,0,0,0.1);
+
+//urls
+$url_0: url(http://wedisrupt.org/sites/default/files/glouds.png);
+
+//@extend-elements
+//original selectors
+//#can_embed_form #d_sharing input, #can_embed_form #d_sharing label
+%extend_1 {
+	display: inline-block!important;
+	height: auto!important;
+	line-height: 19px!important;
+	width: auto!important;
+	float: none!important;
+}
+
+
+.event-cube {
+	margin: 10px auto;
+}
+section {
+	&#block-views-07c1c2837a733305baab5b75463582bb {
+		padding-top: 20px;
+	}
+	&#section1 {
+		background-size: 100%;
+		min-height: 100vh;
+		max-height: 110vh;
+	}
+}
+.shortcut-toolbar {
+	display: none;
+}
+.action_info_user {
+	display: none;
+}
+div {
+	&#referral_code_select_wrap {
+		display: none;
+	}
+	&#can_embed_form_inner {
+		h2 {
+			display: none;
+		}
+		h4 {
+			display: none;
+		}
+	}
+	&#action_welcome_message_inner {
+		padding-top: 10px;
+	}
+}
+#can_embed_form {
+	.can_thank_you-block {
+		.share_button {
+			display: inline-block;
+			margin-bottom: 0;
+			font-weight: normal;
+			text-align: center;
+			vertical-align: middle;
+			touch-action: manipulation;
+			cursor: pointer;
+			background-image: none;
+			border: 1px solid transparent;
+			white-space: nowrap;
+			padding: 10px 24px;
+			font-size: 20px;
+			line-height: 1.33333;
+			line-height: 1.42857;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			//Instead of the line below you could use @include user-select($select)
+			user-select: none;
+			margin: 15px;
+		}
+		h4.widget_title {
+			font-weight: 700;
+		}
+		a.share_button.share-google.left.js-gplus_link {
+			display: none !important;
+		}
+	}
+	#d_sharing {
+		display: block!important;
+		line-height: 15px!important;
+		font-size: 11px!important;
+		color: $gray!important;
+		border-top: 1px dotted $gray-light!important;
+		padding: 20px 0 0!important;
+		margin: 0 0 10px!important;
+		input {
+			@extend %extend_1;
+			position: absolute!important;
+			left: 0!important;
+			top: 0!important;
+		}
+		label {
+			@extend %extend_1;
+			position: relative!important;
+			padding-left: 20px!important;
+		}
+		ul {
+			margin-bottom: -10px!important;
+			padding: 0!important;
+			li {
+				list-style: none;
+				margin-bottom: 10px!important;
+			}
+		}
+	}
+	#can_sidebar {
+		.sidebartitle {
+			border-bottom: 1px solid $gray-light!important;
+			margin-bottom: 20px!important;
+			margin-top: 0!important;
+			padding-bottom: 10px!important;
+			text-align: center!important;
+		}
+		#d_sharing input {
+			top: 0!important;
+		}
+	}
+	#action_welcome_message {
+		padding-bottom: 20px!important;
+		#action_welcome_message_inner {
+			line-height: 25px!important;
+			.welcome_wrap {
+				float: left!important;
+			}
+			.welcome_avatar {
+				float: left!important;
+			}
+			> div {
+				max-width: 240px!important;
+			}
+			#log-out {
+				display: inline-block!important;
+			}
+		}
+		.welcome_avatar {
+			height: 44px!important;
+			width: 44px!important;
+			padding: 2px!important;
+			border: 1px solid $gray-lighter!important;
+			float: left!important;
+			margin-right: 10px!important;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 2px 2px 0 $black_10!important;
+		}
+	}
+	.action_sidebar_lined {
+		padding-bottom: 20px!important;
+	}
+	.ajax-loading {
+		display: none;
+		position: relative!important;
+		top: 4px!important;
+		float: right!important;
+		margin-top: -44px!important;
+		margin-right: 10px!important;
+		height: 16px!important;
+		width: 22px!important;
+		animation: spin 1s infinite linear;
+	}
+	#referral_code_select_wrap {
+		margin-bottom: 20px!important;
+	}
+	#can_embed_form_inner {
+		h2 {
+			display: none;
+		}
+		h4 {
+			display: none;
+		}
+	}
+	#logo_wrap img {
+		text-align: center;
+		margin: 10px auto;
+		margin-top: 15px;
+		width: 100px;
+	}
+	.check_radio_field label input.other_input {
+		top: 0!important;
+		margin: 0!important;
+	}
+	#tip_jar .tip_label.tip_label_other input {
+		top: 0!important;
+		margin: 0!important;
+	}
+}
+a {
+	&.share_button {
+		&.share-facebook.left.mr15.js-facebook_link {
+			background: $facebook !important;
+		}
+		&.share-twitter.left.mr15.js-twitter_link {
+			background: $twitter !important;
+		}
+	}
+	&.tooltip.js-tooltip.ml10 {
+		display: none;
+	}
+	&.international_link.js-international_link {
+		color: $brand-danger;
+	}
+}
+label[for="form-share_link"] {
+	display: none;
+}
+input[name="form-share_link"] {
+	display: none;
+}
+.can_thank_you-block {
+	&:nth-child(3) {
+		display: none;
+	}
+	&:nth-child(4) {
+		display: none;
+	}
+}
+@keyframes spin {
+	0% {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(0deg);
+	}
+	100% {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(359deg);
+	}
+}
+.country_wrap {
+	font-size: 10px;
+}
+span {
+	&#block-nodeblock-1 {
+		background-repeat: repeat;
+		background-size: contain;
+		background-image: $url_0;
+		display: block;
+		width: 100%;
+		height: 120px;
+		margin-top: -100px;
+	}
+	&.country_drop_wrap.js-country_drop_wrap.clear {
+		display: none;
+	}
+}
+.main-container {
+	padding-top: 25px;
+	position: relative;
+	margin-top: -5px;
+	background: $body-bg;
+}
+@media(min-width:1460px) {
+	.region.region-header {
+		> section .title > h1 {
+			font-size: 140px;
+		}
+		section#section {
+			padding-top: calc(10vh +325px);
+			margin-top: -325px;
+		}
+	}
+}
+@media(min-width:992px) {
+	.region.region-header > section .title > h1 {
+		letter-spacing: 6px;
+		font-size: 104px;
+		line-height: 140px;
+	}
+}
+@media(max-width: 1400px) and(min-width: 1140px) {
+	.region.region-header section#section {
+		margin-top: -175px;
+		padding-bottom: 95px;
+		min-height: 85vh;
+		padding-top: calc(10vh +174px);
+	}
+}
+@media(max-width:778px) {
+	.navbar-brand {
+		max-width: calc(100% - 74px);
+		> img {
+			max-width: 100%;
+		}
+	}
+	html h1 {
+		font-size: 72px;
+	}
+	.navbar-toggle .icon-bar {
+		margin: 6px;
+		display: block;
+		width: 35px;
+		height: 4px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 1px;
+	}
+	button.navbar-toggle {
+		padding: 4px 5px;
+	}
+	a.name.navbar-brand {
+		margin-top: 10px;
+	}
+	div#navbar-collapse {
+		background: $black_60;
+		max-height: 80vh;
+		.nav > li > a {
+			font-size: 18px;
+			letter-spacing: 4px;
+			padding: 18px 45px;
+		}
+	}
+	.navbar-inverse #navbar-collapse .navbar-nav > li {
+		&:hover > a:after {
+			margin: 3px 0 0;
+			max-width: 60%;
+			display: block;
+			content: '';
+			border-bottom: 3px solid $body-bg;
+		}
+		> a:after {
+			margin: 3px 0 0;
+			max-width: 60%;
+			display: block;
+			content: '';
+			border-bottom: 3px solid transparent;
+		}
+	}
+	#navbar-collapse ul.menu.nav.navbar-nav.secondary {
+		width: 100%;
+		> li {
+			text-align: center;
+			width: 30%;
+			float: left;
+			a {
+				text-align: center;
+			}
+		}
+	}
+}
+.navbar-inverse {
+	.navbar-nav > li {
+		> a {
+			color: $body-bg;
+			&.fa:before {
+				color: $body-bg;
+			}
+		}
+		&:hover > a.fa:before {
+			color: $brand-info;
+		}
+	}
+	.secondary > li > a.fa {
+		color: transparent;
+		padding: 15px 5px;
+	}
+}
+.event-meta.bg-primary * {
+	color: $body-bg;
+}
+.col-md-4.event-cube .event-meta {
+	padding: 50px 20px;
+	min-height: 250px;
+}
+body.html.front.logged-in.adminimal-menu.admin-menu {
+	padding-top: 68px !important;
+}
+.region.region-header > section {
+	* {
+		color: $body-bg;
+	}
+	h1 {
+		//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		text-shadow: 1px 1px 1px $color_cod_gray_30_approx;
+	}
+	.can_embed {
+		h4 {
+			font-size: 24px;
+			font-weight: 200;
+			text-transform: none;
+		}
+		&.v2.form {
+			padding-top: 25px;
+			#can_embed_form {
+				padding-top: 25px;
+			}
+		}
+	}
+	.sections {
+		padding-top: 5vh;
+		padding-bottom: 15vh;
+	}
+	div#can_thank_you h1 {
+		color: $brand-primary;
+		font-size: 24px;
+	}
+	.title > h1 {
+		letter-spacing: 4px;
+	}
+}
+img.ajax-loading {
+	display: none;
+}
+.can_embed.v2.form {
+	div#can_embed_form_inner .left > div:first-child {
+		letter-spacing: 0.5px;
+		padding-bottom: 2px;
+		font-weight: 700;
+	}
+	a#log-out {
+		color: $brand-primary;
+	}
+}
+.sections .can_embed.v2.form {
+	input {
+		outline: 0;
+		background: transparent;
+	}
+	input[type="submit"] {
+		border: 2px solid $body-bg;
+		//Instead of the line below you could use @include user-select($select)
+		user-select: none;
+		display: block;
+		margin-bottom: 0;
+		font-weight: normal;
+		text-align: center;
+		vertical-align: middle;
+		touch-action: manipulation;
+		padding: 10px 24px;
+		font-size: 20px;
+		line-height: 1.33333;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 60px;
+		margin: 10px auto;
+	}
+	#form_col1 input {
+		font-weight: 600;
+		width: 100%;
+		padding: 5px 0 10px;
+		border: none;
+		border-bottom: 4px solid $body-bg;
+		color: $body-bg;
+		font-size: 12px;
+		margin: 10px 0 4px;
+	}
+}
+.region-header section#section.node-sections {
+	padding-top: 200px;
+	background-position: center;
+	margin-top: -200px;
 }
