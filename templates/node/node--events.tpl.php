@@ -46,12 +46,29 @@
  *
  * @ingroup templates
  */
-?>
+$opts = array(
+  'http'=>array(
+    'method'=>"GET",
+    'header'=>"Accept-language: en\r\n" .
+              "Cookie: foo=bar\r\n" .
+              "User-agent: BROWSER-DESCRIPTION-HERE\r\n"
+  )
+);
+
+
+$url = 'https://actionnetwork.org/api/v2/events';
+
+$headers = array('OSDI-API-Token' => 'f8777e32ab156ac2ece30479c51c9c0f');
+			
+
+				
+$response = drupal_http_request($url, $headers);
+
+dpm(drupal_json_decode($response); ?>
 
 
 
-
-<section id="section<?php print $block_html_id; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?> style="background-image: url(<?php print file_create_url($node->field_image[LANGUAGE_NONE][0]['uri']); ?>)">    
+<section id="section-id-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?> style="background-image: url(<?php print file_create_url($node->field_image[LANGUAGE_NONE][0]['uri']); ?>)">    
     <div class="sections container tt">
         <div class="row">
             <div class="title col-xs-12 col-md-8">

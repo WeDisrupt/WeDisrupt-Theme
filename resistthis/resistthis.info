@@ -36,18 +36,18 @@ stylesheets[all][] = css/for-compile.css
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
 
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/affix.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/alert.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/button.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/carousel.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/collapse.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/dropdown.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/modal.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/tooltip.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/popover.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/scrollspy.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/tab.js'
-scripts[] = 'bootstrap/assets/javascripts/bootstrap/transition.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/affix.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/alert.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/button.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/carousel.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/collapse.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/dropdown.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/modal.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/tooltip.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/popover.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/scrollspy.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/tab.js'
+scripts[] = 'http://wedisrupt.org/sites/all/themes/wedisrupt/bootstrap/assets/javascripts/bootstrap/transition.js'
 
 ; Disable the CDN provider so compiled source files can be used.
 settings[bootstrap_cdn] = ''

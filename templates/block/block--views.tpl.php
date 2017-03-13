@@ -46,7 +46,6 @@
  */
 ?>
 <section id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-<div class="container">
     <div class="row">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
@@ -56,5 +55,4 @@
 
       <?php print $content ?>
     </div>
-</div>
 </section>

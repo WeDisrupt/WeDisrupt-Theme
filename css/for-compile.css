@@ -1,1 +1,14 @@
 /* temp css-please remove styles from this document as soon as they are included in overides.scss and compiled */
+/* temp css-please remove styles from this document as soon as they are included in overides.scss and compiled */
+
+
+
+footer.footer  {background: #0d0c18; padding: 150px 0;}
+
+#footer-inside p {color: #fff;list-style: none;}
+
+#footer-inside #social p a {float: left;}
+
+.domain-actions-wedisrupt-org .navbar-fixed-top {
+    background: black;
+}

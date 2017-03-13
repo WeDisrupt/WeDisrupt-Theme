@@ -1777,7 +1777,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857;
-  background-color: #eef7fd;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -3714,7 +3714,7 @@ input[type="checkbox"]:focus {
 /* line 83, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
 output {
   display: block;
-  padding-top: 7px;
+  padding-top: 17px;
   font-size: 14px;
   line-height: 1.42857;
   color: #4c4c81;
@@ -3724,8 +3724,8 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 34px;
-  padding: 6px 12px;
+  height: 54px;
+  padding: 16px 60px;
   font-size: 14px;
   line-height: 1.42857;
   color: #4c4c81;
@@ -3799,7 +3799,7 @@ input[type="search"] {
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
-    line-height: 34px;
+    line-height: 54px;
   }
   /* line 197, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
   input[type="date"].input-sm, .input-group-sm > input[type="date"].form-control,
@@ -3824,7 +3824,7 @@ input[type="search"] {
   .input-group-sm > .input-group-btn > input[type="month"].btn,
   .input-group-sm
   input[type="month"] {
-    line-height: 30px;
+    line-height: 40px;
   }
   /* line 202, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
   input[type="date"].input-lg, .input-group-lg > input[type="date"].form-control,
@@ -3942,8 +3942,8 @@ fieldset[disabled]
 
 /* line 307, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
 .form-control-static {
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   margin-bottom: 0;
   min-height: 34px;
 }
@@ -3962,8 +3962,8 @@ fieldset[disabled]
 .input-sm, .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {
-  height: 30px;
-  padding: 5px 10px;
+  height: 40px;
+  padding: 10px 25px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 0px;
@@ -3973,8 +3973,8 @@ fieldset[disabled]
 select.input-sm, .input-group-sm > select.form-control,
 .input-group-sm > select.input-group-addon,
 .input-group-sm > .input-group-btn > select.btn {
-  height: 30px;
-  line-height: 30px;
+  height: 40px;
+  line-height: 40px;
 }
 
 /* line 84, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/mixins/_forms.scss */
@@ -3990,8 +3990,8 @@ select[multiple].input-sm,
 
 /* line 333, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm .form-control {
-  height: 30px;
-  padding: 5px 10px;
+  height: 40px;
+  padding: 10px 25px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 0px;
@@ -3999,8 +3999,8 @@ select[multiple].input-sm,
 
 /* line 340, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm select.form-control {
-  height: 30px;
-  line-height: 30px;
+  height: 40px;
+  line-height: 40px;
 }
 
 /* line 344, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
@@ -4011,9 +4011,9 @@ select[multiple].input-sm,
 
 /* line 348, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm .form-control-static {
-  height: 30px;
+  height: 40px;
   min-height: 32px;
-  padding: 6px 10px;
+  padding: 11px 25px;
   font-size: 12px;
   line-height: 1.5;
 }
@@ -4085,7 +4085,7 @@ select[multiple].input-lg,
 
 /* line 393, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
 .has-feedback .form-control {
-  padding-right: 42.5px;
+  padding-right: 67.5px;
 }
 
 /* line 398, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
@@ -4095,9 +4095,9 @@ select[multiple].input-lg,
   right: 0;
   z-index: 2;
   display: block;
-  width: 34px;
-  height: 34px;
-  line-height: 34px;
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
   text-align: center;
   pointer-events: none;
 }
@@ -4119,9 +4119,9 @@ select[multiple].input-lg,
 .input-group-sm > .input-group-btn > .btn + .form-control-feedback,
 .input-group-sm + .form-control-feedback,
 .form-group-sm .form-control + .form-control-feedback {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
 }
 
 /* line 8, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/mixins/_forms.scss */
@@ -4331,13 +4331,13 @@ select[multiple].input-lg,
 .form-horizontal .checkbox-inline {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 7px;
+  padding-top: 17px;
 }
 
 /* line 569, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 27px;
+  min-height: 37px;
 }
 
 /* line 575, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
@@ -4362,7 +4362,7 @@ select[multiple].input-lg,
   .form-horizontal .control-label {
     text-align: right;
     margin-bottom: 0;
-    padding-top: 7px;
+    padding-top: 17px;
   }
 }
 
@@ -4382,7 +4382,7 @@ select[multiple].input-lg,
 @media (min-width: 768px) {
   /* line 611, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .form-group-sm .control-label {
-    padding-top: 6px;
+    padding-top: 11px;
     font-size: 12px;
   }
 }
@@ -4391,7 +4391,7 @@ select[multiple].input-lg,
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 600;
   text-align: center;
   vertical-align: middle;
   touch-action: manipulation;
@@ -4399,7 +4399,7 @@ select[multiple].input-lg,
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 6px 12px;
+  padding: 16px 60px;
   font-size: 14px;
   line-height: 1.42857;
   border-radius: 0px;
@@ -4850,7 +4850,7 @@ fieldset[disabled] .btn-link:focus {
 
 /* line 139, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
-  padding: 5px 10px;
+  padding: 10px 25px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 0px;
@@ -5009,7 +5009,7 @@ tbody.collapse.in {
 
 /* line 88, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-  color: #eef7fd;
+  color: #fff;
   text-decoration: none;
   outline: 0;
   background-color: #672437;
@@ -5423,7 +5423,7 @@ tbody.collapse.in {
 
 /* line 77, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon {
-  padding: 6px 12px;
+  padding: 16px 60px;
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
@@ -5438,7 +5438,7 @@ tbody.collapse.in {
 .input-group-addon.input-sm,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .input-group-addon.btn {
-  padding: 5px 10px;
+  padding: 10px 25px;
   font-size: 12px;
   border-radius: 0px;
 }
@@ -5623,7 +5623,7 @@ tbody.collapse.in {
 /* line 96, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: #4c4c81;
-  background-color: #eef7fd;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -5646,7 +5646,7 @@ tbody.collapse.in {
 
 /* line 131, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  color: #eef7fd;
+  color: #fff;
   background-color: #672437;
 }
 
@@ -5723,7 +5723,7 @@ tbody.collapse.in {
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
   .nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #eef7fd;
+    border-bottom-color: #fff;
   }
 }
 
@@ -6048,8 +6048,8 @@ tbody.collapse.in {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: -2px;
+  margin-bottom: -2px;
 }
 
 @media (min-width: 768px) {
@@ -6157,14 +6157,14 @@ tbody.collapse.in {
 
 /* line 343, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: -2px;
+  margin-bottom: -2px;
 }
 
 /* line 346, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* line 349, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
@@ -6498,7 +6498,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span {
   position: relative;
   float: left;
-  padding: 6px 12px;
+  padding: 16px 60px;
   line-height: 1.42857;
   text-decoration: none;
   color: #672437;
@@ -6582,7 +6582,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 /* line 5, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li > a,
 .pagination-sm > li > span {
-  padding: 5px 10px;
+  padding: 10px 25px;
   font-size: 12px;
   line-height: 1.5;
 }
@@ -6884,7 +6884,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857;
-  background-color: #eef7fd;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -7289,7 +7289,7 @@ button.list-group-item {
 /* line 87, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/bootstrap/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
-  color: #eef7fd;
+  color: #fff;
   background-color: #672437;
   border-color: #672437;
 }
@@ -9542,7 +9542,7 @@ form#search-block-form {
 
 /* line 282, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 ul.action-links {
-  margin: 12px 0;
+  margin: 60px 0;
   padding: 0;
 }
 
@@ -9550,7 +9550,7 @@ ul.action-links {
 ul.action-links li {
   display: inline;
   margin: 0;
-  padding: 0 6px 0 0;
+  padding: 0 16px 0 0;
 }
 
 /* line 290, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
@@ -9872,7 +9872,7 @@ ul.pagination li > a.progress-disabled {
   border-radius: 0 0 0px 0px;
   border: 1px solid #ccc;
   margin: -1px 0 0;
-  padding: 6px 12px;
+  padding: 16px 60px;
   width: 100%;
 }
 
@@ -10543,7 +10543,7 @@ a.name.navbar-brand {
 }
 
 /* line 1058, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
-a.link-image {
+.link-image {
   background-position: center;
   background-repeat: no-repeat;
   display: block;
@@ -10552,7 +10552,7 @@ a.link-image {
 }
 
 /* line 1066, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
-a.link-image:hover {
+.link-image:hover {
   background-position: left bottom;
 }
 
@@ -10587,43 +10587,55 @@ section#block-views-07c1c2837a733305baab5b75463582bb {
 }
 
 /* line 1110, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
-section#section1 {
+section#section-id-124 {
+  min-height: 110vh;
+  background-position: center;
+  padding-top: 16vh;
+}
+
+/* line 1116, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+.btn {
+  letter-spacing: 2px;
+}
+
+/* line 1119, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+header > .region-header section {
   background-size: 100%;
   min-height: 100vh;
   max-height: 110vh;
 }
 
-/* line 1116, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1124, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .shortcut-toolbar {
   display: none;
 }
 
-/* line 1119, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1127, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .action_info_user {
   display: none;
 }
 
-/* line 1123, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1131, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 div#referral_code_select_wrap {
   display: none;
 }
 
-/* line 1127, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1135, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 div#can_embed_form_inner h2 {
   display: none;
 }
 
-/* line 1130, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1138, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 div#can_embed_form_inner h4 {
   display: none;
 }
 
-/* line 1134, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1142, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 div#action_welcome_message_inner {
   padding-top: 10px;
 }
 
-/* line 1140, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1148, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form .can_thank_you-block .share_button {
   display: inline-block;
   margin-bottom: 0;
@@ -10644,17 +10656,17 @@ div#action_welcome_message_inner {
   margin: 15px;
 }
 
-/* line 1161, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1169, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form .can_thank_you-block h4.widget_title {
   font-weight: 700;
 }
 
-/* line 1164, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1172, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form .can_thank_you-block a.share_button.share-google.left.js-gplus_link {
   display: none !important;
 }
 
-/* line 1168, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1176, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #d_sharing {
   display: block !important;
   line-height: 15px !important;
@@ -10665,32 +10677,32 @@ div#action_welcome_message_inner {
   margin: 0 0 10px !important;
 }
 
-/* line 1176, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1184, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #d_sharing input {
   position: absolute !important;
   left: 0 !important;
   top: 0 !important;
 }
 
-/* line 1182, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1190, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #d_sharing label {
   position: relative !important;
   padding-left: 20px !important;
 }
 
-/* line 1187, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1195, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #d_sharing ul {
   margin-bottom: -10px !important;
   padding: 0 !important;
 }
 
-/* line 1190, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1198, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #d_sharing ul li {
   list-style: none;
   margin-bottom: 10px !important;
 }
 
-/* line 1197, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1205, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #can_sidebar .sidebartitle {
   border-bottom: 1px solid #6a6aa7 !important;
   margin-bottom: 20px !important;
@@ -10699,42 +10711,42 @@ div#action_welcome_message_inner {
   text-align: center !important;
 }
 
-/* line 1204, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1212, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #can_sidebar #d_sharing input {
   top: 0 !important;
 }
 
-/* line 1208, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1216, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #action_welcome_message {
   padding-bottom: 20px !important;
 }
 
-/* line 1210, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1218, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #action_welcome_message #action_welcome_message_inner {
   line-height: 25px !important;
 }
 
-/* line 1212, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1220, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #action_welcome_message #action_welcome_message_inner .welcome_wrap {
   float: left !important;
 }
 
-/* line 1215, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1223, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #action_welcome_message #action_welcome_message_inner .welcome_avatar {
   float: left !important;
 }
 
-/* line 1218, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1226, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #action_welcome_message #action_welcome_message_inner > div {
   max-width: 240px !important;
 }
 
-/* line 1221, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1229, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #action_welcome_message #action_welcome_message_inner #log-out {
   display: inline-block !important;
 }
 
-/* line 1225, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1233, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #action_welcome_message .welcome_avatar {
   height: 44px !important;
   width: 44px !important;
@@ -10745,12 +10757,12 @@ div#action_welcome_message_inner {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 1236, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1244, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form .action_sidebar_lined {
   padding-bottom: 20px !important;
 }
 
-/* line 1239, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1247, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form .ajax-loading {
   display: none;
   position: relative !important;
@@ -10763,22 +10775,22 @@ div#action_welcome_message_inner {
   animation: spin 1s infinite linear;
 }
 
-/* line 1250, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1258, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #referral_code_select_wrap {
   margin-bottom: 20px !important;
 }
 
-/* line 1254, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1262, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #can_embed_form_inner h2 {
   display: none;
 }
 
-/* line 1257, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1265, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #can_embed_form_inner h4 {
   display: none;
 }
 
-/* line 1261, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1269, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #logo_wrap img {
   text-align: center;
   margin: 10px auto;
@@ -10786,54 +10798,54 @@ div#action_welcome_message_inner {
   width: 100px;
 }
 
-/* line 1267, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1275, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form .check_radio_field label input.other_input {
   top: 0 !important;
   margin: 0 !important;
 }
 
-/* line 1271, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1279, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 #can_embed_form #tip_jar .tip_label.tip_label_other input {
   top: 0 !important;
   margin: 0 !important;
 }
 
-/* line 1278, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1286, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 a.share_button.share-facebook.left.mr15.js-facebook_link {
   background: #335795 !important;
 }
 
-/* line 1281, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1289, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 a.share_button.share-twitter.left.mr15.js-twitter_link {
   background: #39c7ff !important;
 }
 
-/* line 1285, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1293, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 a.tooltip.js-tooltip.ml10 {
   display: none;
 }
 
-/* line 1288, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1296, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 a.international_link.js-international_link {
   color: #672437;
 }
 
-/* line 1292, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1300, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 label[for="form-share_link"] {
   display: none;
 }
 
-/* line 1295, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1303, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 input[name="form-share_link"] {
   display: none;
 }
 
-/* line 1299, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1307, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .can_thank_you-block:nth-child(3) {
   display: none;
 }
 
-/* line 1302, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1310, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .can_thank_you-block:nth-child(4) {
   display: none;
 }
@@ -10847,28 +10859,39 @@ input[name="form-share_link"] {
   }
 }
 
-/* line 1316, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1324, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .country_wrap {
   font-size: 10px;
 }
 
-/* line 1320, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1328, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 span#block-nodeblock-1 {
-  background-repeat: repeat;
-  background-size: contain;
-  background-image: url(http://wedisrupt.org/sites/default/files/glouds.png);
+  background-repeat: repeat-x;
+  background-size: 600px;
   display: block;
   width: 100%;
-  height: 120px;
-  margin-top: -100px;
+  height: 100px;
+  margin-top: -50px;
+  background-image: url(http://wedisrupt.org/sites/default/files/glouds.png);
 }
 
-/* line 1329, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1337, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+span#block-nodeblock-124 {
+  background-repeat: repeat-x;
+  background-size: 450px;
+  background-image: url(http://www.resistingthis.org/sites/default/files/clouds.png);
+  display: block;
+  width: 100%;
+  height: 65px;
+  margin-top: -32px;
+}
+
+/* line 1346, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 span.country_drop_wrap.js-country_drop_wrap.clear {
   display: none;
 }
 
-/* line 1333, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1350, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .main-container {
   padding-top: 25px;
   position: relative;
@@ -10877,19 +10900,19 @@ span.country_drop_wrap.js-country_drop_wrap.clear {
 }
 
 @media (min-width: 1460px) {
-  /* line 1341, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1358, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   .region.region-header > section .title > h1 {
     font-size: 140px;
   }
-  /* line 1344, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
-  .region.region-header section#section {
+  /* line 1361, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  .region.region-header #section-id-1 {
     padding-top: calc(10vh +325px);
     margin-top: -325px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 1351, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1368, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   .region.region-header > section .title > h1 {
     letter-spacing: 6px;
     font-size: 104px;
@@ -10898,8 +10921,8 @@ span.country_drop_wrap.js-country_drop_wrap.clear {
 }
 
 @media (max-width: 1400px) and (min-width: 1140px) {
-  /* line 1358, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
-  .region.region-header section#section {
+  /* line 1375, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  .region.region-header #section-id-1 {
     margin-top: -175px;
     padding-bottom: 95px;
     min-height: 85vh;
@@ -10908,19 +10931,19 @@ span.country_drop_wrap.js-country_drop_wrap.clear {
 }
 
 @media (max-width: 778px) {
-  /* line 1366, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1383, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   .navbar-brand {
     max-width: calc(100% - 74px);
   }
-  /* line 1368, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1385, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   .navbar-brand > img {
     max-width: 100%;
   }
-  /* line 1372, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1389, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   html h1 {
     font-size: 72px;
   }
-  /* line 1375, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1392, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   .navbar-toggle .icon-bar {
     margin: 6px;
     display: block;
@@ -10928,34 +10951,34 @@ span.country_drop_wrap.js-country_drop_wrap.clear {
     height: 4px;
     border-radius: 1px;
   }
-  /* line 1383, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1400, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   button.navbar-toggle {
     padding: 4px 5px;
   }
-  /* line 1386, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1403, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   a.name.navbar-brand {
     margin-top: 10px;
   }
-  /* line 1389, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1406, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   div#navbar-collapse {
     background: rgba(0, 0, 0, 0.6);
     max-height: 80vh;
   }
-  /* line 1392, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1409, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   div#navbar-collapse .nav > li > a {
     font-size: 18px;
     letter-spacing: 4px;
     padding: 18px 45px;
   }
-  /* line 1399, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1416, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   .navbar-inverse #navbar-collapse .navbar-nav > li:hover > a:after {
     margin: 3px 0 0;
     max-width: 60%;
     display: block;
     content: '';
-    border-bottom: 3px solid #eef7fd;
+    border-bottom: 3px solid #fff;
   }
-  /* line 1406, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1423, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   .navbar-inverse #navbar-collapse .navbar-nav > li > a:after {
     margin: 3px 0 0;
     max-width: 60%;
@@ -10963,160 +10986,171 @@ span.country_drop_wrap.js-country_drop_wrap.clear {
     content: '';
     border-bottom: 3px solid transparent;
   }
-  /* line 1414, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1431, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   #navbar-collapse ul.menu.nav.navbar-nav.secondary {
     width: 100%;
   }
-  /* line 1416, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1433, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   #navbar-collapse ul.menu.nav.navbar-nav.secondary > li {
     text-align: center;
     width: 30%;
     float: left;
   }
-  /* line 1420, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+  /* line 1437, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
   #navbar-collapse ul.menu.nav.navbar-nav.secondary > li a {
     text-align: center;
   }
 }
 
-/* line 1428, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1445, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .navbar-inverse .navbar-nav > li > a {
-  color: #eef7fd;
+  color: #fff;
 }
 
-/* line 1430, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1447, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .navbar-inverse .navbar-nav > li > a.fa:before {
-  color: #eef7fd;
+  color: #fff;
 }
 
-/* line 1434, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1451, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .navbar-inverse .navbar-nav > li:hover > a.fa:before {
   color: #c9e2f1;
 }
 
-/* line 1438, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1455, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .navbar-inverse .secondary > li > a.fa {
   color: transparent;
   padding: 15px 5px;
 }
 
-/* line 1443, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1460, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .event-meta.bg-primary * {
-  color: #eef7fd;
+  color: #fff;
 }
 
-/* line 1446, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1463, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .col-md-4.event-cube .event-meta {
   padding: 50px 20px;
   min-height: 250px;
 }
 
-/* line 1450, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1467, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 body.html.front.logged-in.adminimal-menu.admin-menu {
   padding-top: 68px !important;
 }
 
-/* line 1454, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1471, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .region.region-header > section * {
-  color: #eef7fd;
+  color: #fff;
 }
 
-/* line 1457, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1474, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .region.region-header > section h1 {
   text-shadow: 1px 1px 1px rgba(9, 9, 9, 0.3);
 }
 
-/* line 1462, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1479, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .region.region-header > section .can_embed h4 {
   font-size: 24px;
   font-weight: 200;
   text-transform: none;
 }
 
-/* line 1467, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1484, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .region.region-header > section .can_embed.v2.form {
   padding-top: 25px;
 }
 
-/* line 1469, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1486, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .region.region-header > section .can_embed.v2.form #can_embed_form {
   padding-top: 25px;
 }
 
-/* line 1474, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1491, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .region.region-header > section .sections {
   padding-top: 5vh;
   padding-bottom: 15vh;
 }
 
-/* line 1478, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1495, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .region.region-header > section div#can_thank_you h1 {
   color: #672437;
   font-size: 24px;
 }
 
-/* line 1482, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1499, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .region.region-header > section .title > h1 {
   letter-spacing: 4px;
 }
 
-/* line 1486, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1503, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 img.ajax-loading {
   display: none;
 }
 
-/* line 1490, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1507, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .can_embed.v2.form div#can_embed_form_inner .left > div:first-child {
   letter-spacing: 0.5px;
   padding-bottom: 2px;
   font-weight: 700;
 }
 
-/* line 1495, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1512, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .can_embed.v2.form a#log-out {
   color: #672437;
 }
 
-/* line 1500, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1517, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .sections .can_embed.v2.form input {
   outline: 0;
   background: transparent;
 }
 
-/* line 1504, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1521, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .sections .can_embed.v2.form input[type="submit"] {
-  border: 2px solid #eef7fd;
+  border: 2px solid white;
   user-select: none;
   display: block;
   margin-bottom: 0;
-  font-weight: normal;
+  text-transform: uppercase;
+  font-weight: 600;
   text-align: center;
   vertical-align: middle;
   touch-action: manipulation;
-  padding: 10px 24px;
-  font-size: 20px;
+  padding: 10px 35px;
+  font-size: 16px;
   line-height: 1.33333;
   border-radius: 60px;
   margin: 10px auto;
+  color: #672437;
+  padding: 10px 40px;
+  background: #fff;
 }
 
-/* line 1521, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+/* line 1540, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
 .sections .can_embed.v2.form #form_col1 input {
   font-weight: 600;
   width: 100%;
   padding: 5px 0 10px;
   border: none;
-  border-bottom: 4px solid #eef7fd;
-  color: #eef7fd;
+  border-bottom: 4px solid #fff;
+  color: #fff;
   font-size: 12px;
   margin: 10px 0 4px;
 }
 
-/* line 1532, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
-.region-header section#section.node-sections {
+/* line 1551, C:/Users/Admin/Desktop/www/html/wedisrupt/scss/_overrides.scss */
+.region-header section#section-id-1.node-sections {
   padding-top: 200px;
   background-position: center;
   margin-top: -200px;
+}
+
+/* line 1, C:/Users/Admin/Desktop/www/html/wedisrupt/resistthis/scss/_overrides.scss */
+.main-container > .container {
+  margin-bottom: 20px;
+  border: 20px solid white;
+  background: white;
 }
 
 /*# sourceMappingURL=../css/style.map */

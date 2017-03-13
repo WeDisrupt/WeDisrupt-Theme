@@ -1055,7 +1055,7 @@ a.name.navbar-brand {
   text-transform: uppercase;
 }
 
-a.link-image {
+.link-image {
   background-position: center;
   background-repeat: no-repeat;
   display: block;
@@ -1063,7 +1063,7 @@ a.link-image {
   min-height: 250px;
 }
 
-a.link-image:hover {
+.link-image:hover {
   background-position: left bottom;
 }
 
@@ -1107,12 +1107,20 @@ section {
 	&#block-views-07c1c2837a733305baab5b75463582bb {
 		padding-top: 20px;
 	}
-	&#section1 {
+    &#section-id-124 {
+        min-height: 110vh;
+        background-position: center;
+            padding-top: 16vh;
+    }
+}
+.btn {
+    letter-spacing: 2px;
+}
+header > .region-header section {
 		background-size: 100%;
 		min-height: 100vh;
 		max-height: 110vh;
 	}
-}
 .shortcut-toolbar {
 	display: none;
 }
@@ -1318,14 +1326,23 @@ input[name="form-share_link"] {
 }
 span {
 	&#block-nodeblock-1 {
-		background-repeat: repeat;
-		background-size: contain;
-		background-image: $url_0;
-		display: block;
-		width: 100%;
-		height: 120px;
-		margin-top: -100px;
+        background-repeat: repeat-x;
+        background-size: 600px;
+        display: block;
+        width: 100%;
+        height: 100px;
+        margin-top: -50px;
+        background-image: url(http://wedisrupt.org/sites/default/files/glouds.png);
 	}
+    &#block-nodeblock-124 {
+        background-repeat: repeat-x;
+        background-size: 450px;
+        background-image: url(http://www.resistingthis.org/sites/default/files/clouds.png);
+        display: block;
+        width: 100%;
+        height: 65px;
+        margin-top: -32px;
+    }
 	&.country_drop_wrap.js-country_drop_wrap.clear {
 		display: none;
 	}
@@ -1341,7 +1358,7 @@ span {
 		> section .title > h1 {
 			font-size: 140px;
 		}
-		section#section {
+		#section-id-1 {
 			padding-top: calc(10vh +325px);
 			margin-top: -325px;
 		}
@@ -1355,7 +1372,7 @@ span {
 	}
 }
 @media(max-width: 1400px) and(min-width: 1140px) {
-	.region.region-header section#section {
+	.region.region-header #section-id-1 {
 		margin-top: -175px;
 		padding-bottom: 95px;
 		min-height: 85vh;
@@ -1401,7 +1418,7 @@ span {
 			max-width: 60%;
 			display: block;
 			content: '';
-			border-bottom: 3px solid $body-bg;
+			border-bottom: 3px solid #fff;
 		}
 		> a:after {
 			margin: 3px 0 0;
@@ -1426,9 +1443,9 @@ span {
 .navbar-inverse {
 	.navbar-nav > li {
 		> a {
-			color: $body-bg;
+			color: #fff;
 			&.fa:before {
-				color: $body-bg;
+				color: #fff;
 			}
 		}
 		&:hover > a.fa:before {
@@ -1441,7 +1458,7 @@ span {
 	}
 }
 .event-meta.bg-primary * {
-	color: $body-bg;
+	color: #fff;
 }
 .col-md-4.event-cube .event-meta {
 	padding: 50px 20px;
@@ -1452,7 +1469,7 @@ body.html.front.logged-in.adminimal-menu.admin-menu {
 }
 .region.region-header > section {
 	* {
-		color: $body-bg;
+		color: #fff;
 	}
 	h1 {
 		//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
@@ -1502,34 +1519,36 @@ img.ajax-loading {
 		background: transparent;
 	}
 	input[type="submit"] {
-		border: 2px solid $body-bg;
-		//Instead of the line below you could use @include user-select($select)
-		user-select: none;
-		display: block;
-		margin-bottom: 0;
-		font-weight: normal;
-		text-align: center;
-		vertical-align: middle;
-		touch-action: manipulation;
-		padding: 10px 24px;
-		font-size: 20px;
-		line-height: 1.33333;
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 60px;
-		margin: 10px auto;
+        border: 2px solid white;
+        user-select: none;
+        display: block;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        padding: 10px 35px;
+        font-size: 16px;
+        line-height: 1.33333;
+        border-radius: 60px;
+        margin: 10px auto;
+        color: $brand-primary;
+        padding: 10px 40px;
+        background: #fff;
 	}
 	#form_col1 input {
 		font-weight: 600;
 		width: 100%;
 		padding: 5px 0 10px;
 		border: none;
-		border-bottom: 4px solid $body-bg;
-		color: $body-bg;
+		border-bottom: 4px solid #fff;
+		color: #fff;
 		font-size: 12px;
 		margin: 10px 0 4px;
 	}
 }
-.region-header section#section.node-sections {
+.region-header section#section-id-1.node-sections {
 	padding-top: 200px;
 	background-position: center;
 	margin-top: -200px;

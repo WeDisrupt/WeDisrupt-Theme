@@ -119,15 +119,19 @@
   </header> <!-- /#page-header -->
 
 <div class="main-container">
-
-
-
-
     <?php if (!empty($page['section_1'])): ?>
-        <?php print render($page['section_1']); ?>
+    <div class="section-1">
+        <div class="container">
+            <?php print render($page['section_1']); ?>
+        </div>
+    </div>
         <?php endif; ?>
     <?php if (!empty($page['section_2'])): ?>
+    <div class="section-2">
+        <div class="container">
         <?php print render($page['section_2']); ?>
+        </div>
+    </div>
        <!-- /#sidebar-second -->
     <?php endif; ?>
     <div class="<?php print $container_class; ?>">
@@ -159,17 +163,30 @@
             </section>
         </div>
     </div>
-
+</div>
 
     <?php if (!empty($page['section_3'])): ?>
-        <?php print render($page['section_3']); ?>
+    <div class="section-3">
+        <div class="container-fluid">
+            <?php print render($page['section_3']); ?>
+        </div>
+    </div>
+<div class="main-container">
         <?php endif; ?>
     <?php if (!empty($page['section_4'])): ?>
-        <?php print render($page['section_4']); ?>
+    <div class="section-4">
+        <div class="container">
+            <?php print render($page['section_4']); ?>
+        </div>
+    </div>
        <!-- /#sidebar-second -->
     <?php endif; ?>
         <?php if (!empty($page['section_5'])): ?>
-        <?php print render($page['section_5']); ?>
+     <div class="section-5">
+        <div class="container">
+            <?php print render($page['section_5']); ?>
+         </div>
+    </div>
        <!-- /#sidebar-second -->
     <?php endif; ?>
 
@@ -177,7 +194,8 @@
 
 
 <?php if (!empty($page['footer'])): ?>
-  <footer class="footer <?php print $container_class; ?>">
-    <?php print render($page['footer']); ?>
+  <footer class="footer">
+      <div class="<?php print $container_class; ?>"
+    <?php print render($page['footer']); ?></div></div>
   </footer>
 <?php endif; ?>

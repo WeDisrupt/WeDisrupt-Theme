@@ -17,7 +17,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8881,7 +8880,7 @@ a.name.navbar-brand {
   text-transform: uppercase;
 }
 
-.link-image {
+a.link-image {
   background-position: center;
   background-repeat: no-repeat;
   display: block;
@@ -8889,7 +8888,7 @@ a.name.navbar-brand {
   min-height: 250px;
 }
 
-.link-image:hover {
+a.link-image:hover {
   background-position: left bottom;
 }
 
@@ -8918,17 +8917,7 @@ section#block-views-07c1c2837a733305baab5b75463582bb {
   padding-top: 20px;
 }
 
-section#section-id-124 {
-  min-height: 110vh;
-  background-position: center;
-  padding-top: 16vh;
-}
-
-.btn {
-  letter-spacing: 2px;
-}
-
-header > .region-header section {
+section#section1 {
   background-size: 100%;
   min-height: 100vh;
   max-height: 110vh;
@@ -9154,23 +9143,13 @@ input[name="form-share_link"] {
 }
 
 span#block-nodeblock-1 {
-  background-repeat: repeat-x;
-  background-size: 600px;
-  display: block;
-  width: 100%;
-  height: 100px;
-  margin-top: -50px;
+  background-repeat: repeat;
+  background-size: contain;
   background-image: url(http://wedisrupt.org/sites/default/files/glouds.png);
-}
-
-span#block-nodeblock-124 {
-  background-repeat: repeat-x;
-  background-size: 450px;
-  background-image: url(http://www.resistingthis.org/sites/default/files/clouds.png);
   display: block;
   width: 100%;
-  height: 65px;
-  margin-top: -32px;
+  height: 120px;
+  margin-top: -100px;
 }
 
 span.country_drop_wrap.js-country_drop_wrap.clear {
@@ -9188,7 +9167,7 @@ span.country_drop_wrap.js-country_drop_wrap.clear {
   .region.region-header > section .title > h1 {
     font-size: 140px;
   }
-  .region.region-header #section-id-1 {
+  .region.region-header section#section {
     padding-top: calc(10vh +325px);
     margin-top: -325px;
   }
@@ -9203,7 +9182,7 @@ span.country_drop_wrap.js-country_drop_wrap.clear {
 }
 
 @media (max-width: 1400px) and (min-width: 1140px) {
-  .region.region-header #section-id-1 {
+  .region.region-header section#section {
     margin-top: -175px;
     padding-bottom: 95px;
     min-height: 85vh;
@@ -9356,23 +9335,19 @@ img.ajax-loading {
 }
 
 .sections .can_embed.v2.form input[type="submit"] {
-  border: 2px solid white;
+  border: 2px solid #fff;
   user-select: none;
   display: block;
   margin-bottom: 0;
-  text-transform: uppercase;
-  font-weight: 600;
+  font-weight: normal;
   text-align: center;
   vertical-align: middle;
   touch-action: manipulation;
-  padding: 10px 35px;
-  font-size: 16px;
+  padding: 10px 24px;
+  font-size: 20px;
   line-height: 1.33333;
   border-radius: 60px;
   margin: 10px auto;
-  color: #F27A6D;
-  padding: 10px 40px;
-  background: #fff;
 }
 
 .sections .can_embed.v2.form #form_col1 input {
@@ -9386,7 +9361,7 @@ img.ajax-loading {
   margin: 10px 0 4px;
 }
 
-.region-header section#section-id-1.node-sections {
+.region-header section#section.node-sections {
   padding-top: 200px;
   background-position: center;
   margin-top: -200px;
